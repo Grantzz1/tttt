@@ -1,0 +1,926 @@
+{
+  "bowlGames": [
+    "Rose Bowl",
+    "Sugar Bowl",
+    "Orange Bowl",
+    "Cotton Bowl",
+    "Peach Bowl",
+    "Fiesta Bowl",
+    "Citrus Bowl",
+    "Alamo Bowl",
+    "Gator Bowl",
+    "Sun Bowl",
+    "Liberty Bowl",
+    "Holiday Bowl",
+    "Music City Bowl",
+    "Texas Bowl",
+    "Duke's Mayo Bowl",
+    "Las Vegas Bowl",
+    "Arizona Bowl",
+    "Birmingham Bowl",
+    "Military Bowl",
+    "Fenway Bowl"
+  ],
+  "conferences": [
+    {
+      "confName": "SEC",
+      "confFullName": "Southeastern Conference",
+      "confTeams": [
+        {
+          "name": "Alabama",
+          "abbreviation": "ALA",
+          "prestige": "98",
+          "state": "Alabama",
+          "rival": "AUB"
+        },
+        {
+          "name": "Georgia",
+          "abbreviation": "UGA",
+          "prestige": "97",
+          "state": "Georgia",
+          "rival": "FLA"
+        },
+        {
+          "name": "Texas",
+          "abbreviation": "TEX",
+          "prestige": "95",
+          "state": "Texas",
+          "rival": "OU"
+        },
+        {
+          "name": "LSU",
+          "abbreviation": "LSU",
+          "prestige": "92",
+          "state": "Louisiana",
+          "rival": "TAMU"
+        },
+        {
+          "name": "Tennessee",
+          "abbreviation": "TENN",
+          "prestige": "90",
+          "state": "Tennessee",
+          "rival": "VAN"
+        },
+        {
+          "name": "Oklahoma",
+          "abbreviation": "OU",
+          "prestige": "90",
+          "state": "Oklahoma",
+          "rival": "TEX"
+        },
+        {
+          "name": "Florida",
+          "abbreviation": "FLA",
+          "prestige": "87",
+          "state": "Florida",
+          "rival": "UGA"
+        },
+        {
+          "name": "Texas A&M",
+          "abbreviation": "TAMU",
+          "prestige": "86",
+          "state": "Texas",
+          "rival": "LSU"
+        },
+        {
+          "name": "Auburn",
+          "abbreviation": "AUB",
+          "prestige": "84",
+          "state": "Alabama",
+          "rival": "ALA"
+        },
+        {
+          "name": "Ole Miss",
+          "abbreviation": "MISS",
+          "prestige": "83",
+          "state": "Mississippi",
+          "rival": "PSU"
+        },
+        {
+          "name": "South Carolina",
+          "abbreviation": "SC",
+          "prestige": "78",
+          "state": "South Carolina",
+          "rival": "CLEM"
+        },
+        {
+          "name": "Kentucky",
+          "abbreviation": "UK",
+          "prestige": "74",
+          "state": "Kentucky",
+          "rival": "TENN"
+        }
+      ]
+    },
+    {
+      "confName": "B10",
+      "confFullName": "Big Ten Conference",
+      "confTeams": [
+        {
+          "name": "Ohio State",
+          "abbreviation": "OSU",
+          "prestige": "99",
+          "state": "Ohio",
+          "rival": "MICH"
+        },
+        {
+          "name": "Michigan",
+          "abbreviation": "MICH",
+          "prestige": "94",
+          "state": "Michigan",
+          "rival": "OSU"
+        },
+        {
+          "name": "Penn State",
+          "abbreviation": "PSU",
+          "prestige": "91",
+          "state": "Pennsylvania",
+          "rival": "PITT"
+        },
+        {
+          "name": "Oregon",
+          "abbreviation": "ORE",
+          "prestige": "91",
+          "state": "Oregon",
+          "rival": "WASH"
+        },
+        {
+          "name": "USC",
+          "abbreviation": "USC",
+          "prestige": "89",
+          "state": "California",
+          "rival": "UCLA"
+        },
+        {
+          "name": "Wisconsin",
+          "abbreviation": "WISC",
+          "prestige": "84",
+          "state": "Wisconsin",
+          "rival": "MINN"
+        },
+        {
+          "name": "Iowa",
+          "abbreviation": "IOWA",
+          "prestige": "82",
+          "state": "Iowa",
+          "rival": "ISU"
+        },
+        {
+          "name": "Washington",
+          "abbreviation": "WASH",
+          "prestige": "82",
+          "state": "Washington",
+          "rival": "ORE"
+        },
+        {
+          "name": "UCLA",
+          "abbreviation": "UCLA",
+          "prestige": "80",
+          "state": "California",
+          "rival": "USC"
+        },
+        {
+          "name": "Michigan State",
+          "abbreviation": "MSU",
+          "prestige": "78",
+          "state": "Michigan",
+          "rival": "MICH"
+        },
+        {
+          "name": "Nebraska",
+          "abbreviation": "NEB",
+          "prestige": "77",
+          "state": "Nebraska",
+          "rival": "IOWA"
+        },
+        {
+          "name": "Minnesota",
+          "abbreviation": "MINN",
+          "prestige": "72",
+          "state": "Minnesota",
+          "rival": "WISC"
+        }
+      ]
+    },
+    {
+      "confName": "ACC",
+      "confFullName": "Atlantic Coast Conference",
+      "confTeams": [
+        {
+          "name": "Clemson",
+          "abbreviation": "CLEM",
+          "prestige": "91",
+          "state": "South Carolina",
+          "rival": "SC"
+        },
+        {
+          "name": "Florida State",
+          "abbreviation": "FSU",
+          "prestige": "89",
+          "state": "Florida",
+          "rival": "MIA"
+        },
+        {
+          "name": "Miami (FL)",
+          "abbreviation": "MIA",
+          "prestige": "87",
+          "state": "Florida",
+          "rival": "FSU"
+        },
+        {
+          "name": "North Carolina",
+          "abbreviation": "UNC",
+          "prestige": "81",
+          "state": "North Carolina",
+          "rival": "NCST"
+        },
+        {
+          "name": "Louisville",
+          "abbreviation": "LOU",
+          "prestige": "80",
+          "state": "Kentucky",
+          "rival": "UK"
+        },
+        {
+          "name": "Virginia Tech",
+          "abbreviation": "VT",
+          "prestige": "79",
+          "state": "Virginia",
+          "rival": "UVA"
+        },
+        {
+          "name": "NC State",
+          "abbreviation": "NCST",
+          "prestige": "77",
+          "state": "North Carolina",
+          "rival": "UNC"
+        },
+        {
+          "name": "Pittsburgh",
+          "abbreviation": "PITT",
+          "prestige": "76",
+          "state": "Pennsylvania",
+          "rival": "PSU"
+        },
+        {
+          "name": "Georgia Tech",
+          "abbreviation": "GT",
+          "prestige": "74",
+          "state": "Georgia",
+          "rival": "UGA"
+        },
+        {
+          "name": "Syracuse",
+          "abbreviation": "SYR",
+          "prestige": "70",
+          "state": "New York",
+          "rival": "BC"
+        },
+        {
+          "name": "Duke",
+          "abbreviation": "DUKE",
+          "prestige": "69",
+          "state": "North Carolina",
+          "rival": "UNC"
+        },
+        {
+          "name": "Boston College",
+          "abbreviation": "BC",
+          "prestige": "65",
+          "state": "Massachusetts",
+          "rival": "SYR"
+        }
+      ]
+    },
+    {
+      "confName": "B12",
+      "confFullName": "Big 12 Conference",
+      "confTeams": [
+        {
+          "name": "Notre Dame",
+          "abbreviation": "ND",
+          "prestige": "96",
+          "state": "Indiana",
+          "rival": "USC"
+        },
+        {
+          "name": "Utah",
+          "abbreviation": "UTAH",
+          "prestige": "85",
+          "state": "Utah",
+          "rival": "BYU"
+        },
+        {
+          "name": "Kansas State",
+          "abbreviation": "KSU",
+          "prestige": "82",
+          "state": "Kansas",
+          "rival": "PSU"
+        },
+        {
+          "name": "TCU",
+          "abbreviation": "TCU",
+          "prestige": "81",
+          "state": "Texas",
+          "rival": "BAY"
+        },
+        {
+          "name": "Oklahoma State",
+          "abbreviation": "OKST",
+          "prestige": "80",
+          "state": "Oklahoma",
+          "rival": "OU"
+        },
+        {
+          "name": "Baylor",
+          "abbreviation": "BAY",
+          "prestige": "78",
+          "state": "Texas",
+          "rival": "TCU"
+        },
+        {
+          "name": "Arizona State",
+          "abbreviation": "ASU",
+          "prestige": "77",
+          "state": "Arizona",
+          "rival": "ARIZ"
+        },
+        {
+          "name": "Arizona",
+          "abbreviation": "ARIZ",
+          "prestige": "76",
+          "state": "Arizona",
+          "rival": "ASU"
+        },
+        {
+          "name": "BYU",
+          "abbreviation": "BYU",
+          "prestige": "76",
+          "state": "Utah",
+          "rival": "UTAH"
+        },
+        {
+          "name": "Iowa State",
+          "abbreviation": "ISU",
+          "prestige": "74",
+          "state": "Iowa",
+          "rival": "IOWA"
+        },
+        {
+          "name": "Texas Tech",
+          "abbreviation": "TTU",
+          "prestige": "73",
+          "state": "Texas",
+          "rival": "TCU"
+        },
+        {
+          "name": "Colorado",
+          "abbreviation": "COLO",
+          "prestige": "71",
+          "state": "Colorado",
+          "rival": "CSU"
+        }
+      ]
+    },
+    {
+      "confName": "PAC",
+      "confFullName": "Pacific Coast Conference",
+      "confTeams": [
+        {
+          "name": "Boise State",
+          "abbreviation": "BOIS",
+          "prestige": "82",
+          "state": "Idaho",
+          "rival": "BOIS"
+        },
+        {
+          "name": "Washington State",
+          "abbreviation": "WSU",
+          "prestige": "73",
+          "state": "Washington",
+          "rival": "WASH"
+        },
+        {
+          "name": "Oregon State",
+          "abbreviation": "ORST",
+          "prestige": "72",
+          "state": "Oregon",
+          "rival": "ORE"
+        },
+        {
+          "name": "San Diego State",
+          "abbreviation": "SDSU",
+          "prestige": "70",
+          "state": "California",
+          "rival": "FRES"
+        },
+        {
+          "name": "Fresno State",
+          "abbreviation": "FRES",
+          "prestige": "69",
+          "state": "California",
+          "rival": "SDSU"
+        },
+        {
+          "name": "Colorado State",
+          "abbreviation": "CSU",
+          "prestige": "67",
+          "state": "Colorado",
+          "rival": "COLO"
+        },
+        {
+          "name": "Air Force",
+          "abbreviation": "AFA",
+          "prestige": "67",
+          "state": "Colorado",
+          "rival": "CSU"
+        },
+        {
+          "name": "UNLV",
+          "abbreviation": "UNLV",
+          "prestige": "66",
+          "state": "Nevada",
+          "rival": "NEV"
+        },
+        {
+          "name": "Wyoming",
+          "abbreviation": "WYO",
+          "prestige": "64",
+          "state": "Wyoming",
+          "rival": "CSU"
+        },
+        {
+          "name": "Nevada",
+          "abbreviation": "NEV",
+          "prestige": "61",
+          "state": "Nevada",
+          "rival": "UNLV"
+        },
+        {
+          "name": "Hawaii",
+          "abbreviation": "HAW",
+          "prestige": "59",
+          "state": "Hawaii",
+          "rival": "FRES"
+        },
+        {
+          "name": "New Mexico",
+          "abbreviation": "UNM",
+          "prestige": "54",
+          "state": "New Mexico",
+          "rival": "NMSU"
+        }
+      ]
+    },
+    {
+      "confName": "AAC",
+      "confFullName": "American Athletic Conference",
+      "confTeams": [
+        {
+          "name": "Memphis",
+          "abbreviation": "MEM",
+          "prestige": "74",
+          "state": "Tennessee",
+          "rival": "TUL"
+        },
+        {
+          "name": "Tulane",
+          "abbreviation": "TUL",
+          "prestige": "73",
+          "state": "Louisiana",
+          "rival": "MEM"
+        },
+        {
+          "name": "USF",
+          "abbreviation": "USF",
+          "prestige": "70",
+          "state": "Florida",
+          "rival": "PSU"
+        },
+        {
+          "name": "UTSA",
+          "abbreviation": "UTSA",
+          "prestige": "69",
+          "state": "Texas",
+          "rival": "UNT"
+        },
+        {
+          "name": "East Carolina",
+          "abbreviation": "ECU",
+          "prestige": "67",
+          "state": "North Carolina",
+          "rival": "APP"
+        },
+        {
+          "name": "Navy",
+          "abbreviation": "NAVY",
+          "prestige": "67",
+          "state": "Maryland",
+          "rival": "ARMY"
+        },
+        {
+          "name": "Army",
+          "abbreviation": "ARMY",
+          "prestige": "66",
+          "state": "New York",
+          "rival": "NAVY"
+        },
+        {
+          "name": "UAB",
+          "abbreviation": "UAB",
+          "prestige": "64",
+          "state": "Alabama",
+          "rival": "MEM"
+        },
+        {
+          "name": "North Texas",
+          "abbreviation": "UNT",
+          "prestige": "63",
+          "state": "Texas",
+          "rival": "UTSA"
+        },
+        {
+          "name": "Temple",
+          "abbreviation": "TEM",
+          "prestige": "58",
+          "state": "Pennsylvania",
+          "rival": "NAVY"
+        },
+        {
+          "name": "Charlotte",
+          "abbreviation": "CLT",
+          "prestige": "56",
+          "state": "North Carolina",
+          "rival": "ECU"
+        },
+        {
+          "name": "Tulsa",
+          "abbreviation": "TLSA",
+          "prestige": "55",
+          "state": "Oklahoma",
+          "rival": "MEM"
+        }
+      ]
+    },
+    {
+      "confName": "SUN",
+      "confFullName": "Sun Belt Conference",
+      "confTeams": [
+        {
+          "name": "Appalachian State",
+          "abbreviation": "APP",
+          "prestige": "72",
+          "state": "North Carolina",
+          "rival": "ECU"
+        },
+        {
+          "name": "James Madison",
+          "abbreviation": "JMU",
+          "prestige": "71",
+          "state": "Virginia",
+          "rival": "ODU"
+        },
+        {
+          "name": "Troy",
+          "abbreviation": "TROY",
+          "prestige": "69",
+          "state": "Alabama",
+          "rival": "USA"
+        },
+        {
+          "name": "Coastal Carolina",
+          "abbreviation": "CCU",
+          "prestige": "67",
+          "state": "South Carolina",
+          "rival": "APP"
+        },
+        {
+          "name": "Marshall",
+          "abbreviation": "MRSH",
+          "prestige": "66",
+          "state": "West Virginia",
+          "rival": "ODU"
+        },
+        {
+          "name": "Louisiana",
+          "abbreviation": "ULL",
+          "prestige": "65",
+          "state": "Louisiana",
+          "rival": "ULM"
+        },
+        {
+          "name": "Georgia Southern",
+          "abbreviation": "GASO",
+          "prestige": "64",
+          "state": "Georgia",
+          "rival": "GAST"
+        },
+        {
+          "name": "South Alabama",
+          "abbreviation": "USA",
+          "prestige": "63",
+          "state": "Alabama",
+          "rival": "TROY"
+        },
+        {
+          "name": "Old Dominion",
+          "abbreviation": "ODU",
+          "prestige": "61",
+          "state": "Virginia",
+          "rival": "JMU"
+        },
+        {
+          "name": "Georgia State",
+          "abbreviation": "GAST",
+          "prestige": "59",
+          "state": "Georgia",
+          "rival": "GASO"
+        },
+        {
+          "name": "Arkansas State",
+          "abbreviation": "ARST",
+          "prestige": "57",
+          "state": "Arkansas",
+          "rival": "MEM"
+        },
+        {
+          "name": "UL Monroe",
+          "abbreviation": "ULM",
+          "prestige": "51",
+          "state": "Louisiana",
+          "rival": "ULL"
+        }
+      ]
+    },
+    {
+      "confName": "MAC",
+      "confFullName": "Mid-American Conference",
+      "confTeams": [
+        {
+          "name": "Toledo",
+          "abbreviation": "TOL",
+          "prestige": "67",
+          "state": "Ohio",
+          "rival": "BGSU"
+        },
+        {
+          "name": "Miami (OH)",
+          "abbreviation": "M-OH",
+          "prestige": "65",
+          "state": "Ohio",
+          "rival": "CIN"
+        },
+        {
+          "name": "Ohio",
+          "abbreviation": "OHIO",
+          "prestige": "63",
+          "state": "Ohio",
+          "rival": "M-OH"
+        },
+        {
+          "name": "Western Michigan",
+          "abbreviation": "WMU",
+          "prestige": "61",
+          "state": "Michigan",
+          "rival": "CMU"
+        },
+        {
+          "name": "Central Michigan",
+          "abbreviation": "CMU",
+          "prestige": "60",
+          "state": "Michigan",
+          "rival": "WMU"
+        },
+        {
+          "name": "Northern Illinois",
+          "abbreviation": "NIU",
+          "prestige": "59",
+          "state": "Illinois",
+          "rival": "PSU"
+        },
+        {
+          "name": "Bowling Green",
+          "abbreviation": "BGSU",
+          "prestige": "58",
+          "state": "Ohio",
+          "rival": "TOL"
+        },
+        {
+          "name": "Buffalo",
+          "abbreviation": "BUFF",
+          "prestige": "57",
+          "state": "New York",
+          "rival": "NIU"
+        },
+        {
+          "name": "Eastern Michigan",
+          "abbreviation": "EMU",
+          "prestige": "54",
+          "state": "Michigan",
+          "rival": "CMU"
+        },
+        {
+          "name": "Ball State",
+          "abbreviation": "BALL",
+          "prestige": "53",
+          "state": "Indiana",
+          "rival": "NIU"
+        },
+        {
+          "name": "Akron",
+          "abbreviation": "AKR",
+          "prestige": "49",
+          "state": "Ohio",
+          "rival": "KENT"
+        },
+        {
+          "name": "Kent State",
+          "abbreviation": "KENT",
+          "prestige": "47",
+          "state": "Ohio",
+          "rival": "AKR"
+        }
+      ]
+    },
+    {
+      "confName": "CUSA",
+      "confFullName": "Conference USA",
+      "confTeams": [
+        {
+          "name": "Liberty",
+          "abbreviation": "LIB",
+          "prestige": "68",
+          "state": "Virginia",
+          "rival": "JMU"
+        },
+        {
+          "name": "Western Kentucky",
+          "abbreviation": "WKU",
+          "prestige": "63",
+          "state": "Kentucky",
+          "rival": "M-OH"
+        },
+        {
+          "name": "Jacksonville State",
+          "abbreviation": "JVST",
+          "prestige": "60",
+          "state": "Alabama",
+          "rival": "TROY"
+        },
+        {
+          "name": "Middle Tennessee",
+          "abbreviation": "MTSU",
+          "prestige": "59",
+          "state": "Tennessee",
+          "rival": "WKU"
+        },
+        {
+          "name": "Sam Houston",
+          "abbreviation": "SHSU",
+          "prestige": "58",
+          "state": "Texas",
+          "rival": "UTEP"
+        },
+        {
+          "name": "Louisiana Tech",
+          "abbreviation": "LT",
+          "prestige": "57",
+          "state": "Louisiana",
+          "rival": "USM"
+        },
+        {
+          "name": "UTEP",
+          "abbreviation": "UTEP",
+          "prestige": "55",
+          "state": "Texas",
+          "rival": "NMSU"
+        },
+        {
+          "name": "FIU",
+          "abbreviation": "FIU",
+          "prestige": "53",
+          "state": "Florida",
+          "rival": "FAU"
+        },
+        {
+          "name": "Kennesaw State",
+          "abbreviation": "KENN",
+          "prestige": "52",
+          "state": "Georgia",
+          "rival": "GAST"
+        },
+        {
+          "name": "New Mexico State",
+          "abbreviation": "NMSU",
+          "prestige": "51",
+          "state": "New Mexico",
+          "rival": "UTEP"
+        },
+        {
+          "name": "Florida Atlantic",
+          "abbreviation": "FAU",
+          "prestige": "50",
+          "state": "Florida",
+          "rival": "FIU"
+        },
+        {
+          "name": "Southern Miss",
+          "abbreviation": "USM",
+          "prestige": "49",
+          "state": "Mississippi",
+          "rival": "LT"
+        }
+      ]
+    },
+    {
+      "confName": "IND",
+      "confFullName": "Independence Conference",
+      "confTeams": [
+        {
+          "name": "Vanderbilt",
+          "abbreviation": "VAN",
+          "prestige": "62",
+          "state": "Tennessee",
+          "rival": "TENN"
+        },
+        {
+          "name": "Cincinnati",
+          "abbreviation": "CIN",
+          "prestige": "71",
+          "state": "Ohio",
+          "rival": "M-OH"
+        },
+        {
+          "name": "Houston",
+          "abbreviation": "HOU",
+          "prestige": "70",
+          "state": "Texas",
+          "rival": "TCU"
+        },
+        {
+          "name": "West Virginia",
+          "abbreviation": "WVU",
+          "prestige": "72",
+          "state": "West Virginia",
+          "rival": "PITT"
+        },
+        {
+          "name": "Wake Forest",
+          "abbreviation": "WAKE",
+          "prestige": "65",
+          "state": "North Carolina",
+          "rival": "DUKE"
+        },
+        {
+          "name": "Virginia",
+          "abbreviation": "UVA",
+          "prestige": "68",
+          "state": "Virginia",
+          "rival": "VT"
+        },
+        {
+          "name": "Stanford",
+          "abbreviation": "STAN",
+          "prestige": "68",
+          "state": "California",
+          "rival": "CAL"
+        },
+        {
+          "name": "California",
+          "abbreviation": "CAL",
+          "prestige": "67",
+          "state": "California",
+          "rival": "STAN"
+        },
+        {
+          "name": "Purdue",
+          "abbreviation": "PUR",
+          "prestige": "75",
+          "state": "Indiana",
+          "rival": "PUR"
+        },
+        {
+          "name": "Illinois",
+          "abbreviation": "ILL",
+          "prestige": "74",
+          "state": "Illinois",
+          "rival": "WISC"
+        },
+        {
+          "name": "Rutgers",
+          "abbreviation": "RUTG",
+          "prestige": "63",
+          "state": "New Jersey",
+          "rival": "PSU"
+        },
+        {
+          "name": "Maryland",
+          "abbreviation": "MD",
+          "prestige": "66",
+          "state": "Maryland",
+          "rival": "RUTG"
+        }
+      ]
+    }
+  ]
+}
